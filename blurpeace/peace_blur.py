@@ -47,8 +47,8 @@ while True:
                 peace_detected = True
                 break
     if peace_detected:
-        frame = cv2.GaussianBlur(frame, (31, 31), 0)
-        cv2.putText(frame, "PEACE DETECTED", (30, 80), 
+        frame = cv2.GaussianBlur(frame, (55, 55), 0)
+        cv2.putText(frame, "", (30, 80), 
                     cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 255, 0), 3, cv2.LINE_AA)
     cv2.imshow("Peace Blur Detection", frame)
     if cv2.waitKey(1) & 0xFF == 27:
