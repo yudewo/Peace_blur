@@ -33,12 +33,5 @@ Agar program berjalan lancar tanpa konflik *dependency*, pastikan menggunakan ve
 Jalankan perintah berikut di terminal Anda:
    ```bash
       python peace_blur.py
-   1. Webcam akan menyala.
-   
-   2. Tunjukkan gestur (Peace) di depan kamera.
-   
-   3. Layar akan otomatis menjadi blur dan menampilkan teks "PEACE DETECTED".
-   
-   4. Tekan tombol ESC pada keyboard Anda untuk mematikan program.
    
    Author: Yudewo Alghiditya Winarno
