@@ -20,7 +20,7 @@ Agar program berjalan lancar tanpa konflik *dependency*, pastikan menggunakan ve
 1. Pastikan sudah menginstal Python versi 3.11.x.
 2. *Clone* repositori ini ke komputer Anda:
    ```bash
-   git clone [https://github.com/yudewo/Peace_blur.git]
+   git clone https://github.com/yudewo/Peace_blur.git
 3. Masuk ke dalam direktori project:
    ```bash
       cd Peace_blur
@@ -54,7 +54,7 @@ Agar program berjalan lancar tanpa konflik *dependency*, pastikan menggunakan ve
    3. Instal Library (Pustaka) dengan Versi Spesifik
       ```bash
             Di VS Code, buka menu Terminal > New Terminal.
-            Ketik perintah di bawah ini satu per satu, lalu tekan Enter. Kita sengaja menggunakan versi spesifik agar tidak terjadi konflik antar program:
+            Ketik perintah di bawah ini satu per satu, lalu tekan Enter.
                Instal MediaPipe: pip install mediapipe==0.10.21
                Instal OpenCV: pip install opencv-python==4.9.0.80
             (Tunggu setiap proses instalasi selesai 100% sebelum mengetik perintah berikutnya).
